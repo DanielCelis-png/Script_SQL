@@ -1,0 +1,14 @@
+SELECT * FROM usuarios;
+SELECT * FROM roles;
+SELECT * FROM terminos;
+SELECT * FROM productos;
+SELECT * FROM categorias;
+SELECT * FROM carrito;
+SELECT * FROM carrito_detalle;
+SELECT * FROM pedidos;
+SELECT * FROM detalle_pedido;
+SELECT * FROM contacto;
+SELECT * FROM productos WHERE nombre LIKE '%dona%';
+SELECT * FROM carrito WHERE id_usuario = 1;
+SELECT * FROM pedidos WHERE id_usuario = 1;
+SELECT * FROM carrito_detalle WHERE id_carrito = 1;
